@@ -1,8 +1,8 @@
 {
-  "name": "playground-gutenberg",
+  "name": "gutenberg-headless",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "GPL",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"

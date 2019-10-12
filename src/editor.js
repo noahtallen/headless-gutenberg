@@ -23,8 +23,8 @@ import '@wordpress/block-library/build-style/theme.css';
 
 
 const Editor = () => {
-    const [ blocks, updateBlocks ] = useState( [] );
-    return (
+	const [ blocks, updateBlocks ] = useState( [] );
+	return (
 		<div id='editor'>
 			<BlockEditorProvider
 				value={ blocks }
@@ -38,7 +38,7 @@ const Editor = () => {
 				</WritingFlow>
 			</BlockEditorProvider>
 		</div>
-    );
+	);
 }
 
 export default Editor;

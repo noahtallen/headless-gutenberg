@@ -8,8 +8,8 @@ import Editor from './editor';
 import './style.scss';
 
 const App = () => (
-	<div id='container'>
-		<h1>Try Gutenberg:</h1>
+	<div id="container">
+		<h1>Try Headless Gutenberg:</h1>
 		<Editor />
 	</div>
 );
